@@ -145,9 +145,11 @@ If you are done with reading, lets go ahead and explain ***class keyword*** in J
 
 Before we get too excited about the class itself, if you are at least semi good JavaScript developer, you are familiar with concept of Objects and Prototypes and with that, you know that classes are not nothing new that happened, ***class keyword*** is just a syntactical sugar over Objects and prototypes which we are familiar with for quiet some time. 
 
-> **So does this mean that won't benefit from this keyword in any other way other then cleaner and "easier to read" code ?**
+> *So does this mean that we won't benefit from this keyword in any other way other then cleaner and "easier to read" code ?*
 
-Well, exactly. ***class*** is basically just allowing us to write much nicer and easier to understand code and instead of creating classes using ***function***, we can finally do it the right way.
+Well, exactly. ***class*** is basically just allowing us to write much nicer and easier to understand code and instead of creating classes using ***function***, we can finally do it the right way. We usually call features like this *syntactical sugar*.
+
+
 
 
 
