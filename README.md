@@ -34,4 +34,4 @@ To execute our program, we simply open up a terminal and type:
 
 > node compiled.js 
 
-If you are done with all the above steps, you are ready to move to the next video where I will talk about new way of declaring variable using new ES6 keyword "let".
+If you are done with all the above steps, you are ready to move to the next video where I will talk about new way of declaring variable using new ES6 keyword **let**.
