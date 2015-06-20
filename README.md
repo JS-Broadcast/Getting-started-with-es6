@@ -45,10 +45,10 @@ If you are done with all the above steps, you are ready to move to the next vide
 
 Here's an example:
 
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+```javascript
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
 
 
