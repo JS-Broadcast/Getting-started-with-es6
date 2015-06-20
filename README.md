@@ -12,7 +12,7 @@ In order to proceed and install [Babel](https://babeljs.io/), we need to have [N
 
 After you have NODEJS installed and with it, Node Package Manager, we are ready to install Babel. Simply, open your terminal and type: 
 
- * npm install -g babel
+> npm install -g babel
 
 After the installation is completed, you will have babel installed globally on your system and ready for use.
 
@@ -26,12 +26,12 @@ After you have your directory created and both files opened in your IDE / Text E
 
 To do so, open your terminal and type:
 
- * babel main.js --watch --out-file compiled.js
+> babel main.js --watch --out-file compiled.js
 
 Now each time when we make a change and save in our main.js, we will compile our ES6 into ES5 into compiled.js and each time we want to execute our program, we will execute compiled.js.
 
 To execute our program, we simply open up a terminal and type:
 
- * node compiled.js 
+> node compiled.js 
 
 If you are done with all the above steps, you are ready to move to the next video where I will talk about new way of declaring variable using new ES6 keyword "let".
