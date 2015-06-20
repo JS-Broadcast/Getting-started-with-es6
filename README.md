@@ -147,10 +147,10 @@ Before we get too excited about the class itself, if you are at least semi good 
 
 > *So does this mean that we won't benefit from this keyword in any other way other then cleaner and "easier to read" code ?*
 
-Well, exactly. ***class*** is basically just allowing us to write much nicer and easier to understand code and instead of creating classes using ***function***, we can finally do it the right way. We usually call features like this *syntactical sugar*.
+> Well, exactly. ***class*** is basically just allowing us to write much nicer and easier to understand code and instead of creating classes using ***function***, we can finally do it the right way. We usually call features like this *syntactical sugar*.
 
 
-Anyway lets start writing some code. Before we introduce new class keyword, lets write the class in the old fashioned way. The usual way to create "an old fashioned class" is by creating an object prototype. We do so by creating an object constructor function:
+* Anyway lets start writing some code. Before we introduce new class keyword, lets write the class in the old fashioned way. The usual way to create "an old fashioned class" is by creating an object prototype. We do so by creating an object constructor function:
 
 
 ```javascript
@@ -164,7 +164,7 @@ this.seats = numOfSeats;
 
 ```
 
-Now when we have our constructor defined, we can use the ***new*** keyword and create new objects from the prototype we have just created:
+* Now when we have our constructor defined, we can use the ***new*** keyword and create new objects from the prototype we have just created:
 
 ```javascript
 
@@ -174,7 +174,7 @@ let jaguar = new vehicle(1900, 19);
 
 ```
 
-Also if we ever wanted, we could add aditional proparties or methods for our newkly created object.
+* Also if we ever wanted, we could add aditional proparties or methods for our newly created object.
 
 ```javascript
 
@@ -195,7 +195,7 @@ console.log('Honeyyyy, where did you leave the keys!');
 
 ```
 
-This would apply only for that individual object and not to any other e.g. *jaguar*. If we would want to add a new property to our constructor, we would need to do it manually same way we defined the initial ones.
+* This would apply only for that individual object and not to any other e.g. *jaguar*. If we would want to add a new property to our constructor, we would need to do it manually same way we defined the initial ones.
 
 ```javascript
 
@@ -209,7 +209,7 @@ this.tires = extraTires;
 
 ```
 
-We can also add some functionality (methods) to our Prototype (vehicle). 
+* We can also add some functionality (methods) to our Prototype (vehicle). 
 
 
 ```javascript
@@ -227,15 +227,13 @@ this.washMyVehicle = function() {
 
 ```
 
-We can instead use prototype property and add new properties or methods to our initial prototype:
+* We can instead use prototype property and add new properties or methods to our initial prototype:
 
 ```javascript
 
 function vehicle(maxSpeed, numOfSeats, extraTires) {
 // our existing prototype
 } 
-
-
 
 vehicle.protoype.fixVehicle = function() {
 //do something
@@ -246,6 +244,8 @@ vehicle.prototype.manufactured = 2015;
 }; 
 
 ```
+
+
 
 
 ---
