@@ -112,9 +112,20 @@ In other cases whatsoever, those behave differently. While let and constant are 
 
 * Also, if you have you clicked the article [JavaScript Declarations Hoisting](http://www.w3schools.com/js/js_hoisting.asp) you will notice that ***let*** behaves differently and that variables declared with it are hoisted at the top of their current block and not at the top of the place of its current global scope. 
 
+
+* function expressions can be created the regular way, same as we did with var:
+
+```javascript
+
+let fn = function() {
+// function body
+}
+
+```
+
 * In terms of ***const***, scoping rules are exactly the same as ***let***, only difference is and it is pretty much self explanatory, const is a constant value and when defined, it cannot be changed, its read-only. 
 
-* 
+
 
 
 ---
