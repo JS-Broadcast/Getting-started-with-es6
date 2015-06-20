@@ -40,6 +40,10 @@ If you are done with all the above steps, you are ready to move to the next vide
 
 ### [02. Getting started with ES6 - let](https://www.youtube.com/watch?v=l2rHcpLAhsw)
 
+> **let** allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
+
+
+
 ---
 
 ### [03. Getting started with ES6 - class](https://www.youtube.com/watch?v=Hie7noPJORA)
