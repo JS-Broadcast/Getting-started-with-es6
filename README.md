@@ -42,7 +42,9 @@ If you are done with all the above steps, you are ready to move to the next vide
 
 > Before starting with reading whats coming after, please take a look at [JavaScript Declarations Hoisting](http://www.w3schools.com/js/js_hoisting.asp) so you can understand how JS "compiler" hoists the declarations. This is crucial to know in order to fully understand the content below and var vs let vs const
 
-> **let** allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
+
+
+ * **let** allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
 
  * If we take a look at the "official" definition of let, we can pretty much understand how **let** works. If we compare *var* vs *let* we can pretty much come to a conclusion that the only difference between those two is scoping. *var* is scoped to the nearest function block (or global if outside a function block), and let is scoped to the nearest enclosing block (or global if outside any block), which can be smaller than a function block.
 
@@ -101,6 +103,13 @@ In other cases whatsoever, those behave differently. While let and constant are 
 ```
 
 * Taking a look at the example above shows pretty much what variable block scoping is. If you check the example with var, you will notice that our x got redefined aka redeclared and got its new value, while using let simply ignores that and keep its variable declaration bound to its scope. In the example of let, we are having two variable in the same function declared with the same name and yet, they behave corresponding to the scope they have been defined / declared in.
+
+* Also, if you have you clicked the article [JavaScript Declarations Hoisting](http://www.w3schools.com/js/js_hoisting.asp) you will notice that ***let*** behaves differently and that variables declared with it are hoisted at the top of their current block and not at the top of the place of its current global scope. 
+
+
+
+
+
 
 ---
 
