@@ -8,8 +8,6 @@
 
 Repository containing some of the code examples from YouTube courses.
 
-[![Getting Started with ECMAScript 6](https://img.youtube.com/vi/_lGYG_s_yTM/0.jpg)](https://www.youtube.com/embed/_lGYG_s_yTM "Getting Started with ECMAScript 6")
-
 
 ### 01. Getting started with ES6 - Environment 
 
