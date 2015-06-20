@@ -44,15 +44,29 @@ If you are done with all the above steps, you are ready to move to the next vide
 
  * If we take a look at the "official" definition of let, we can pretty much understand how **let** works. If we compare *var* vs *let* we can pretty much come to a conclusion that the only difference between those two is scoping. *var* is scoped to the nearest function block (or global if outside a function block), and let is scoped to the nearest enclosing block (or global if outside any block), which can be smaller than a function block.
 
+To simplify this therotical part, variables declared with **let** belong to scope in which they are declared. This can be either **global*, **functional** or **statement** scope. Let's give it a few examples: 
 
 
 
 ```javascript
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+// in global scope, declaring variables either with let, var or const makes no difference
+// they end up beloging to the global scope and available to all functions after
+
+var x = 5;
+let y = 6;
+const z = 7;
+
+// All of the above are now globally scope, therefor, there aren't any differences when scope is concerned
+
 ```
 
+In other cases whatsoever, those behave differently:
+
+```javascript
+
+// sds
+
+```
 
 
 ---
