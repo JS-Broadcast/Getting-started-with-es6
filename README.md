@@ -1,7 +1,5 @@
 
-
-
-
+### [JSBroadcast Official Webpage](http://www.jsbroadcast.com)
 
 # Getting Started with ES6
 ### [Getting Started with ECMAScript 6 - on YouTube](https://www.youtube.com/watch?v=_lGYG_s_yTM&list=PLEKIsm9AjY8LfH5cYnhJE-L5A7NWis6qB)
