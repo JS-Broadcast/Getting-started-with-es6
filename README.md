@@ -1,3 +1,8 @@
+
+
+
+
+
 # Getting Started with ES6
 ### [Getting Started with ECMAScript 6 - on YouTube](https://www.youtube.com/watch?v=_lGYG_s_yTM&list=PLEKIsm9AjY8LfH5cYnhJE-L5A7NWis6qB)
 
@@ -42,6 +47,7 @@ If you are done with all the above steps, you are ready to move to the next vide
 
 > Before starting with reading whats coming after, please take a look at [JavaScript Declarations Hoisting](http://www.w3schools.com/js/js_hoisting.asp) so you can understand how JS "compiler" hoists the declarations. This is crucial to know in order to fully understand the content below and var vs let vs const
 
+> Another good article to take a look is [Original Mozzila Developer Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 
 
  * **let** allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
