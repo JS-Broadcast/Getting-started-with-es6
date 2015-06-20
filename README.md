@@ -58,13 +58,24 @@ const z = 7;
 
 // All of the above are now globally scope, therefor, there aren't any differences when scope is concerned
 
+// They would behave the same if they are declared for example at the top of any function
+
+function fn() {
+var x = 5;
+let y = 6;
+const z = 7;
+
+// accesible afterwards in any function statements 
+
+}
+
 ```
 
 In other cases whatsoever, those behave differently:
 
 ```javascript
 
-// sds
+
 
 ```
 
