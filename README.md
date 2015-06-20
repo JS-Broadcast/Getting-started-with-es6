@@ -70,7 +70,7 @@ var x = 5;
 let y = 6;
 const z = 7;
 
-// accesible afterwards in any function statements
+// our variables are now accessible in any newly defined scopes inside this function
 
 }
 
