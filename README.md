@@ -195,7 +195,57 @@ console.log('Honeyyyy, where did you leave the keys!');
 
 ```
 
-This would apply only for that individual object and not to any other e.g. *jaguar*.
+This would apply only for that individual object and not to any other e.g. *jaguar*. If we would want to add a new property to our constructor, we would need to do it manually same way we defined the initial ones.
+
+```javascript
+
+function vehicle(maxSpeed, numOfSeats, extraTires) {
+
+this.maxSpeed = speed;  
+this.seats = numOfSeats;
+this.tires = extraTires;
+
+}; 
+
+```
+
+We can also add some functionality (methods) to our Prototype (vehicle). 
+
+
+```javascript
+
+function vehicle(maxSpeed, numOfSeats, extraTires) {
+
+this.maxSpeed = speed;  
+this.seats = numOfSeats;
+this.tires = extraTires;
+this.washMyVehicle = function() {
+ // do something
+} 
+
+}; 
+
+```
+
+We can instead use prototype property and add new properties or methods to our initial prototype:
+
+```javascript
+
+function vehicle(maxSpeed, numOfSeats, extraTires) {
+// our existing prototype
+} 
+
+
+
+vehicle.protoype.fixVehicle = function() {
+//do something
+};
+
+vehicle.prototype.manufactured = 2015;
+
+}; 
+
+```
 
 
 ---
