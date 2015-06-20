@@ -138,6 +138,8 @@ If your first programming is JavaScript and if you have never experienced nor wo
 > When an object is created by a constructor of the class, the resulting object is called an instance of the class, and the member variables specific to the object are called instance variables, to contrast with the class variables shared across the class.
 
 
+* To fully utilise and understand ***class** keyword, I suggest you to take a look at the [wikipedia article](https://en.wikipedia.org/wiki/Class_(computer_programming) about meaning of ***class*** in general.
+
 
 
 ---
