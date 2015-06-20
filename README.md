@@ -8,8 +8,7 @@
 
 Repository containing some of the code examples from YouTube courses.
 
-
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/_lGYG_s_yTM?list=PLEKIsm9AjY8LfH5cYnhJE-L5A7NWis6qB&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+[![INSERT TEXT HERE](https://img.youtube.com/vi/_lGYG_s_yTM/0.jpg)](https://www.youtube.com/embed/_lGYG_s_yTM "INSERT TEXT HERE")
 
 
 ### 01. Getting started with ES6 - Environment 
