@@ -77,26 +77,31 @@ In other cases whatsoever, those behave differently. While let and constant are 
   function fn() {
       let x = 5; // this x belongs to function scope
       if(x > 4) {
+     
       let x = 6; // this x belongs to if statement scope and therefor, it is a separate variable
+      console.log(x); // 6
       }
-    
+    console.log(x);// 5
   }
+
   
   // if we do it the old fashioned way using var
   // variable x in the if statement scope will be rewritten by the new value
   // so x in the function scope will get that value too
   
     function fn() {
-      var = 5;
+      var x = 5;
       if(x > 4) {
       var x = 6; // x is now 6
+      console.log(x) // 6
       }
+      console.log(x) // 6
     
   }
 
-
 ```
 
+* Taking a look at the example above shows pretty much what variable block scoping is. If you check example with var, you will notice that our x got redefined aka redeclared and got its new value, while using let simply ignores that and keep its variable declaration bound to its scope. In the example of let, we are having two variable in the same function declared with the same name and yet, they behave corresponding to the scope they have been defined in.
 
 ---
 
