@@ -172,9 +172,30 @@ let ferrari = new vehicle(300, 2);
 let jaguar = new vehicle(1900, 19);
 
 
+```
+
+Also if we ever wanted, we could add aditional proparties or methods for our newkly created object.
+
+```javascript
+
+ferrari.color = 'red';
+ferrari.turnOnTheCar = function() {
+let on = true;
+
+if(on) {
+
+console.log('brmmmmmm brmmmm');
+
+} else {
+
+console.log('Honeyyyy, where did you leave the keys!');
+
+}
+}
 
 ```
 
+This would apply only for that individual object and not to any other e.g. *jaguar*.
 
 
 ---
