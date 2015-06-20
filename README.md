@@ -38,4 +38,18 @@ If you are done with all the above steps, you are ready to move to the next vide
 
 ---
 
-### 02. Getting started with ES6 - let 
+### [02. Getting started with ES6 - let](https://www.youtube.com/watch?v=l2rHcpLAhsw)
+
+---
+
+### [03. Getting started with ES6 - class](https://www.youtube.com/watch?v=Hie7noPJORA)
+
+---
+
+### [04. Getting started with ES6 - Promises](https://www.youtube.com/watch?v=J-yo9u5uVzM)
+
+---
+
+### [05. Getting started with ES6 - Destructuring](https://www.youtube.com/watch?v=VU0ZZkouMaA)
+
+
