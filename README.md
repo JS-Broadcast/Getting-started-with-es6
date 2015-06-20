@@ -17,7 +17,10 @@ After you have NODEJS installed and with it, Node Package Manager, we are ready 
 After the installation is completed, you will have babel installed globally on your system and ready for use.
 
 Now, lets go ahead and create a directory where will have our two files, main.js and compiled.js
-main.js files is where we will write our code and compiled.js is where our comiled ES6 to ES5 will be located. 
+
+
+
+main.js file is where we will write our code and compiled.js is where our comiled ES6 to ES5 will be located. 
 
 After you have your directory created and both files opened in your IDE / Text Editor, lets start watching for changes on our main.js file and envoke Babel each time when we make a change.
 
