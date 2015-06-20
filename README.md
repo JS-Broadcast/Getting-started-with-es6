@@ -10,3 +10,9 @@ In order to get started with ECMAScript 6, we need to have our Environment insta
 
 In order to proceed and install [Babel](https://babeljs.io/), we need to have [Node Package Manager](http://www.npmjs.com) installed. NPM comes with installing [nodejs](http://www.nodejs.org) so you can go ahead and [download](http://www.nodejs.org/download) the proper version for your operation system.
 
+After you have NODEJS installed and with it, Node Package Manager, we are ready to install Babel. Simply, open your terminal and type: 
+
+ * npm install -g babel
+
+After the installation is completed, you will have babel installed globally on your system and ready to be used.
+
