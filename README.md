@@ -150,7 +150,30 @@ Before we get too excited about the class itself, if you are at least semi good 
 Well, exactly. ***class*** is basically just allowing us to write much nicer and easier to understand code and instead of creating classes using ***function***, we can finally do it the right way. We usually call features like this *syntactical sugar*.
 
 
+Anyway lets start writing some code. Before we introduce new class keyword, lets write the class in the old fashioned way. The usual way to create "an old fashioned class" is by creating an object prototype. We do so by creating an object constructor function:
 
+
+```javascript
+
+function vehicle(maxSpeed, numOfSeats) {
+
+this.maxSpeed = speed;  
+this.seats = numOfSeats;
+
+}; 
+
+```
+
+Now when we have our constructor defined, we can use the ***new*** keyword and create new objects from the prototype we have just created:
+
+```javascript
+
+let ferrari = new vehicle(300, 2);
+let jaguar = new vehicle(1900, 19);
+
+
+
+```
 
 
 
