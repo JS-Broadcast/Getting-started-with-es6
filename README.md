@@ -48,16 +48,13 @@ To simplify this therotical part, variables declared with **let** belong to scop
 
 
 
-> in global scope, declaring variables either with let, var or const makes no difference
-  they end up beloging to the global scope and available to all functions after
-
+* In the global scope, declaring variables either with *let*, *var* or *const* makes no difference. They end up beloging to the global scope and available to all functions afterwards.
 ```javascript
 var x = 5;
 let y = 6;
 const z = 7;
 ```
-> All of the above are now globally scoped, therefor, there aren't any differences when scope is concerned
-  They would behave the same if they are declared for example at the top of any function
+All of the above are now globally scoped, therefor, there aren't any differences when scope is concerned. This also applies to pretty much any scope if they are declared at the top (top of statement, loop, function). 
 
 ```javascript
 function fn() {
