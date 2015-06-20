@@ -140,6 +140,18 @@ If your first programming is JavaScript and if you have never experienced nor wo
 
 To fully utilise and understand ***class*** keyword, I suggest you to take a look at the [wikipedia article](https://en.wikipedia.org/?title=Object-oriented_programming) and learn a little bit about Object Oriented programming and its concepts.
 
+
+If you are done with reading, lets go ahead and explain ***class keyword*** in JavaScript world.
+
+Before we get too excited about the class itself, if you are at least semi good JavaScript developer, you are familiar with concept of Objects and Prototypes and with that, you know that classes are not nothing new that happened, ***class keyword*** is just a syntactical sugar over Objects and prototypes which we are familiar with for quiet some time. 
+
+***So does this mean that won't benefit from this keyword in any other way other then cleaner and "easier to read" code ?***
+
+Well, exactly. ***class** is basically just allowing us to write much nicer and easier to understand code and instead of creating classes using ***function***, we can finally do it the right way.
+
+
+
+
 ---
 
 ### [04. Getting started with ES6 - Promises](https://www.youtube.com/watch?v=J-yo9u5uVzM)
