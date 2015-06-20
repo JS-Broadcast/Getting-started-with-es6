@@ -9,6 +9,9 @@
 Repository containing some of the code examples from YouTube courses.
 
 
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/_lGYG_s_yTM?list=PLEKIsm9AjY8LfH5cYnhJE-L5A7NWis6qB&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
 ### 01. Getting started with ES6 - Environment 
 
 In order to get started with ECMAScript 6, we need to have our **Environment** installed first. In this video course, we will use [Babel](https://babeljs.io/) which will compile our newly written ES6 into current ES5.
