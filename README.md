@@ -14,5 +14,21 @@ After you have NODEJS installed and with it, Node Package Manager, we are ready 
 
  * npm install -g babel
 
-After the installation is completed, you will have babel installed globally on your system and ready to be used.
+After the installation is completed, you will have babel installed globally on your system and ready for use.
+
+Now, lets go ahead and create a directory where will have our two files, main.js and compiled.js
+main.js files is where we will write our code and compiled.js is where our comiled ES6 to ES5 will be located. 
+
+After you have your directory created and both files opened in your IDE / Text Editor, lets start watching for changes on our main.js file and envoke Babel each time when we make a change.
+
+To do so, open your terminal and type:
+
+ * babel main.js --watch --out-file compiled.js
+
+Now each time when we make a change and save in our main.js, we will compile our ES6 into ES5 into compiled.js and each time we want to execute our program, we will execute compiled.js.
+
+To execute our program, we simply open up a terminal and type:
+
+ * node compiled.js 
+
 
