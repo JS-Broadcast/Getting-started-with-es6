@@ -1,4 +1,5 @@
 # Getting Started with ES6
+### [Getting Started with ECMAScript 6](https://www.youtube.com/watch?v=_lGYG_s_yTM&list=PLEKIsm9AjY8LfH5cYnhJE-L5A7NWis6qB)
 * Repository containing some of the code examples from YouTube courses.
 
 
