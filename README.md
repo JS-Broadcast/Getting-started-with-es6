@@ -20,7 +20,7 @@ Now, lets go ahead and create a directory where will have our two files, main.js
 
 
 
-main.js file is where we will write our code and compiled.js is where our comiled ES6 to ES5 will be located. 
+main.js file is where we will write our code and compiled.js is where our compilation from  ES6 to ES5 will be happen. 
 
 After you have your directory created and both files opened in your IDE / Text Editor, lets start watching for changes on our main.js file and envoke Babel each time when we make a change.
 
@@ -34,4 +34,4 @@ To execute our program, we simply open up a terminal and type:
 
  * node compiled.js 
 
-
+If you are done with all the above steps, you are ready to move to the next video where I will talk about new way of declaring variable using new ES6 keyword "let".
