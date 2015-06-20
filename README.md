@@ -73,17 +73,16 @@ const z = 7;
 
 In other cases whatsoever, those behave differently. While let and constant are equivalent in terms of scope rules, their only difference is that constant is read only variable, while let obviously it is not.
 
+
+> if we declare variable x with let in the function scope
+ and declare another variable with the same name in if statement scope
+ these two will be 2 separate variables belonging to their own scopes
+
 ```javascript
-
-  
-      // if we declare variable x with let in the function scope
-      // and declare another variable with the same name in if statement scope
-      // these two will be 2 separate variables belonging to their own scopes
-
   function fn() {
-      let x = 5;
+      let x = 5; // this x belongs to function scope
       if(x > 4) {
-      let x = 6; 
+      let x = 6; // this x belongs to if statement scope and therefor, it is a separate variable
       }
     
   }
