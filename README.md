@@ -308,9 +308,27 @@ this.name = name;
 this.age = age
 }
 
-getParentAge: {}
+getParentAge() {
+return 'Your father is ' + this.age + ' old and his name is ' + this.name;
+}
 
 }
+
+class Child extends Parent {
+constructor(name, age, children) {
+super(name, age);
+this.children = children;
+}
+
+aboutMyParent() {
+  return console.log(super.getParentAge() + ' and he has ' + this.children + ' more children.');
+}
+
+}
+
+let Eduard_Einstein = new Child('Albert Einstein', 136, 2);
+Geronimo.aboutMyParent();
+
 
 ```
 
