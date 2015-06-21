@@ -266,7 +266,7 @@ let fn = function() {} // function expression
 ```
 
 
-Difference between functions and **class** keyword is that functions declarations are hoisted and class declaratios are not. This means that using **class**, we can't use the class before we define it, like we could do with functions :
+Difference between functions and **class** keyword is that functions declarations are hoisted and class declaratios are not. This means that we can't use the class before we define / declare it, like we could do with functions :
 
 ```javascript
 fn(); // we are invoking the function before its declared
