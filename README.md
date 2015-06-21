@@ -248,6 +248,10 @@ vehicle.prototype.manufactured = 2015;
 
 ```
 
+#### class keyword
+
+Now when have reminded ourselves about ES5 and talked about constructor, object and Prototype, let's see how the new class keyword behaves.
+
 
 
 
