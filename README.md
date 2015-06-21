@@ -322,32 +322,38 @@ A **constructor** can use the super keyword to call the constructor of a parent 
 
 ```javascript
 
-class Parent {
-constructor(name, age) {
-this.name = name;
-this.age = age
+class pc {
+constructor(RAM, CPU) { // one-per-class constructor
+this.memory = RAM;
+this.processor = CPU;
 }
 
-getParentAge() {
-return 'Your father is ' + this.age + ' old and his name is ' + this.name;
+// class body
+
+get_specs() { // class method
+return 'This machine has ' + this.memory + ' of RAM and running on ' + this.processor + ' processor.';
 }
 
-}
-
-class Child extends Parent {
-constructor(name, age, children) {
-super(name, age);
-this.children = children;
-}
-
-aboutMyParent() {
-  return console.log(super.getParentAge() + ' and he has ' + this.children + ' more children.');
-}
+// .. N of methods
 
 }
 
-let Eduard_Einstein = new Child('Albert Einstein', 136, 2);
-Eduard_Einstein.aboutMyParent();
+class pcExternalDevices extends pc {
+constructor(RAM, CPU, external_devices) {
+super(RAM, CPU);
+this.external_devices = external_devices;
+
+}
+
+specs() {
+  return console.log(super.get_specs() + 'It comes with additional ' + this.external_devices);
+}
+
+}
+
+let Pentium = new pcExternalDevices('16gb', 'core i7', ['keyboard', 'mouse']);
+Pentium.specs();
+
 
 
 ```
