@@ -254,7 +254,19 @@ Now when have reminded ourselves about ES5 and talked about constructor, object 
 
 So Classes in JavaScript are functions and just like we did previously, we can define them as class expressions or class declarations.
 
-Difference between functions and new **class** keyword is that functions declarations are hoisted and class declaratios are not. This means that using **class**, we can use the class and then define it, like we could do with functions :
+
+```javascript
+class Person {} // class declaration
+let Person = class {} // class expression
+
+// we did this for a long time with functions
+function fn () {} // function declaration
+let fn = function() {} // function expression
+
+```
+
+
+Difference between functions and **class** keyword is that functions declarations are hoisted and class declaratios are not. This means that using **class**, we can't use the class before we define it, like we could do with functions :
 
 ```javascript
 fn(); // we are invoking the function before its declared
@@ -267,7 +279,7 @@ Scenario with **class** is different and this wouldn't work :
 
 ```javascript
 fn(); // we are invoking the function before its declared
-      // but since our function is being hoisted (move to the top of our file)
+      // but since our function is being hoisted (moved to the top of our file)
       // this will normally work
 
 let car = new vehicle(); // ReferenceError 
@@ -278,6 +290,7 @@ constructor() {
 }
 ```
 
+The reason for this limitation is that classes can have an **extends** clause whose value is an arbitrary expression. That expression must be evaluated in the proper “location”, its evaluation can’t be hoisted.
 
 
 ---
