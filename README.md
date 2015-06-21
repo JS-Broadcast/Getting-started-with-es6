@@ -306,7 +306,7 @@ this.processor = CPU;
 // class body
 
 getSpecs() { // class method
-return 'This machine has ' + this.memory + ' of RAM and running on' + CPU + ' processor.';
+return 'This machine has ' + this.memory + ' of RAM and running on' + this.processor + ' processor.';
 }
 
 // .. N of methods
