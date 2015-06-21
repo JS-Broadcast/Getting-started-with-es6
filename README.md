@@ -252,6 +252,13 @@ vehicle.prototype.manufactured = 2015;
 
 Now when have reminded ourselves about ES5 and talked about constructor, object and Prototype, let's see how the new class keyword behaves.
 
+So Classes in JavaScript are functions and just like we did previously, we can define them as class expressions or class declarations.
+
+Difference between functions and new **class** keyword is that functions declarations are hoisted and class declaratios are not. This means that using **class**, we can use the class and then define it, like we could do with functions :
+
+```javascript
+function fn() = {// logic}
+```
 
 
 
