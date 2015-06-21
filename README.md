@@ -292,11 +292,18 @@ constructor() {
 
 The reason for this limitation is that classes can have an **extends** clause whose value is an arbitrary expression. That expression must be evaluated in the proper “location”, its evaluation can’t be hoisted.
 
-### *constructor*
+#### *constructor*
 
-### *static methods*
+*The constructor method is a special method for creating and initializing an object created with a class.* There can only be one special method with the name "constructor" in a class. A SyntaxError will be thrown if the class contains more than one occurrence of a constructor method.
 
-### *prototype methods*
+A **constructor** can use the super keyword to call the constructor of a parent class. - taken from [MDN](-US/docs/Web/JavaScript/Reference/Classes)
+
+
+
+
+#### *static methods*
+
+#### *prototype methods*
 
 
 ---
