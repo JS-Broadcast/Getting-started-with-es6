@@ -257,7 +257,25 @@ So Classes in JavaScript are functions and just like we did previously, we can d
 Difference between functions and new **class** keyword is that functions declarations are hoisted and class declaratios are not. This means that using **class**, we can use the class and then define it, like we could do with functions :
 
 ```javascript
+fn(); // we are invoking the function before its declared
+      // but since our function is being hoisted (move to the top of our file)
+      // this will normally work
 function fn() = {// logic}
+```
+
+Scenario with **class** is different and this wouldn't work :
+
+```javascript
+fn(); // we are invoking the function before its declared
+      // but since our function is being hoisted (move to the top of our file)
+      // this will normally work
+
+let car = new vehicle(); // ReferenceError 
+
+class vehicle {
+constructor() {
+// some proparties here
+}
 ```
 
 
