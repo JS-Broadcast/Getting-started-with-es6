@@ -294,6 +294,26 @@ The reason for this limitation is that classes can have an **extends** clause wh
 
 > Each class consists of one-per-class constructor where we define our class proparties and class body where we define class methods. Let's go ahead and explain each one of them.
 
+Before we individually explain each segment of class, lets just see how the class look like:
+
+```javascript
+class Computer {
+constructor(RAM, CPU) { // one-per-class constructor
+this.memory = RAM;
+this.processor = CPU;
+}
+
+// class body
+
+getSpecs() { // class method
+return 'This machine has ' + this.memory + ' of RAM and running on' + CPU + ' processor.';
+}
+
+// .. N of methods
+
+}
+```
+
 #### *constructor*
 
 *The constructor method is a special method for creating and initializing an object created with a class.* There can only be one special method with the name "constructor" in a class. A SyntaxError will be thrown if the class contains more than one occurrence of a constructor method.
