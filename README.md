@@ -272,7 +272,7 @@ Difference between functions and **class** keyword is that functions declaration
 fn(); // we are invoking the function before its declared
       // but since our function is being hoisted (moved to the top of the file)
       // this will normally work
-function fn() = {
+function fn() {
 // some logic
 }
 ```
@@ -291,6 +291,12 @@ constructor() {
 ```
 
 The reason for this limitation is that classes can have an **extends** clause whose value is an arbitrary expression. That expression must be evaluated in the proper “location”, its evaluation can’t be hoisted.
+
+### *constructor*
+
+### *static methods*
+
+### *prototype methods*
 
 
 ---
