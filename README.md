@@ -292,11 +292,27 @@ constructor() {
 
 The reason for this limitation is that classes can have an **extends** clause whose value is an arbitrary expression. That expression must be evaluated in the proper “location”, its evaluation can’t be hoisted.
 
+> Each class consists of one-per-class constructor where we define our class proparties and class body where we define class methods. Let's go ahead and explain each one of them.
+
 #### *constructor*
 
 *The constructor method is a special method for creating and initializing an object created with a class.* There can only be one special method with the name "constructor" in a class. A SyntaxError will be thrown if the class contains more than one occurrence of a constructor method.
 
 A **constructor** can use the super keyword to call the constructor of a parent class. - taken from [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+
+```javascript
+
+class Parent {
+constructor(name, age) {
+this.name = name;
+this.age = age
+}
+
+getParentAge: {}
+
+}
+
+```
 
 
 
