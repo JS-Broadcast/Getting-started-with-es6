@@ -270,23 +270,23 @@ Difference between functions and **class** keyword is that functions declaration
 
 ```javascript
 fn(); // we are invoking the function before its declared
-      // but since our function is being hoisted (move to the top of our file)
+      // but since our function is being hoisted (moved to the top of the file)
       // this will normally work
-function fn() = {// logic}
+function fn() = {
+// some logic
+}
 ```
 
 Scenario with **class** is different and this wouldn't work :
 
 ```javascript
-fn(); // we are invoking the function before its declared
-      // but since our function is being hoisted (moved to the top of our file)
-      // this will normally work
-
 let car = new vehicle(); // ReferenceError 
 
 class vehicle {
 constructor() {
 // some proparties here
+}
+// class body
 }
 ```
 
