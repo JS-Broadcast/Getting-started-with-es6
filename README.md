@@ -327,7 +327,7 @@ aboutMyParent() {
 }
 
 let Eduard_Einstein = new Child('Albert Einstein', 136, 2);
-Geronimo.aboutMyParent();
+Eduard_Einstein.aboutMyParent();
 
 
 ```
