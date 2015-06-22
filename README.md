@@ -358,7 +358,7 @@ Pentium.specs();
 
 If we take a look at the above example, we notice that we have a parent class called **pc** and a child class called **pcExternalDevices**.
 
-We use **extends* clause to create a subclass of our parent class (existing constructor). Subclasses are usually called *derived* classes, simply because we derive them from the parent class.
+We use **extends** clause to create a subclass of our parent class (existing constructor). Subclasses are usually called *derived* classes, simply because we derive them from the parent class.
 
 As we can see on the example above, we need to call **super()** each time in our derived classes. There are 2 reasons why we need to user **super()**, one is being able to access our parent methods and proparties and second is using *this* keyword.
 
