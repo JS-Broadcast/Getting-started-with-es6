@@ -354,17 +354,65 @@ specs() {
 let Pentium = new pcExternalDevices('16gb', 'core i7', ['keyboard', 'mouse']);
 Pentium.specs();
 
+```
 
+If we take a look at the above example, we notice that we have a parent class called **pc** and a child class called **pcExternalDevices**.
+
+We use **extends* clause to create a subclass of our parent class (existing constructor). Subclasses are usually called *derived* classes, simply because we derive them from the parent class.
+
+As we can see on the example above, we need to call **super()** each time in our derived classes. There are 2 reasons why we need to user **super()**, one is being able to access our parent methods and proparties and second is using *this* keyword.
+
+
+```javascript
+    class Foo {}
+    class Bar extends Foo {
+        constructor(num) {
+            let tmp = num * 2; // OK
+            this.num = num; // ReferenceError
+            super();
+            this.num = num; // OK
+        }
+    }
 
 ```
 
+Also, leaving our subclass without calling super() will also throw an error: 
 
+```javascript
+  class Foo {}
+    
+    class Bar extends Foo {
+        constructor() {
+        }
+    }
+    
+    let bar = new Bar(); // ReferenceError
+```
 
+#### The future of classes
 
-#### *static methods*
+The design maxim for classes was “maximally minimal”. Several advanced features were discussed, but ultimately discarded in order to get a design that would be unanimously accepted by TC39.
 
-#### *prototype methods*
+Upcoming versions of ECMAScript can now extend this minimal design – classes will provide a foundation for features such as traits (or mixins), value objects (where different objects are equal if they have the same content) and const classes (that produce immutable instances).
 
+Does JavaScript need classes?
+Classes are controversial within the JavaScript community. On one hand, people coming from class-based languages are happy that they don’t have to deal with JavaScript’s unorthodox inheritance mechanisms, anymore. On the other hand, there are many JavaScript programmers who argue that what’s complicated about JavaScript is not prototypal inheritance, but constructors [6].
+
+ES6 classes provide a few clear benefits:
+
+* They are backwards compatible with much of the current code.
+
+* Compared to constructors and constructor inheritance, classes make it easier for beginners to get started.
+
+* Subclassing is supported within the language.
+
+* Built-in constructors are subclassable.
+
+* No library for inheritance is needed, anymore; code will become more portable between frameworks.
+
+* They provide a foundation for advanced features in the future (mixins and more).
+
+* They help tools that statically analyze code (IDEs, type checkers, style checkers, etc.).
 
 ---
 
